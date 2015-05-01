@@ -23,7 +23,7 @@ function HTML5_plugin_updater() {
 			'zip_url' => 'https://github.com/CodersPress/HTML5-GEO-Location/zipball/master',
 			'sslverify' => true,
 			'requires' => '3.0',
-			'tested' => '4.2',
+			'tested' => '4.2.1',
 			'readme' => 'README.md',
 			'access_token' => '827a5cda582bc36bb902393e1d491634c5f41142',
 		);
