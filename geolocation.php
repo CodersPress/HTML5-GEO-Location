@@ -11,7 +11,7 @@ License:
 */
 add_action( 'init', 'HTML5_plugin_updater' );
 function HTML5_plugin_updater() {
-	include_once 'updater.php';
+	include_once( dirname( __FILE__ ) . '/updater.php' );
 	define( 'WP_HTML5_FORCE_UPDATE', true );
 	if ( is_admin() ) { 
 		$config = array(
