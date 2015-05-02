@@ -25,7 +25,7 @@ function HTML5_plugin_updater() {
 			'requires' => '3.0',
 			'tested' => '4.2.1',
 			'readme' => 'README.md',
-			'access_token' => '827a5cda582bc36bb902393e1d491634c5f41142',
+			'access_token' => 'c328f7473b68b220489e5c7dea3e225d15f88e45',
 		);
 		new WP_HTML5_Updater( $config );
 	}
