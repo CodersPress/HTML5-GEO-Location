@@ -3,7 +3,7 @@
 Plugin Name: HTML5 GEO Users Location
 Plugin URI: http://coderspress.com/
 Description: This plugin will attempt to GEO locate your website visitors
-Version: 10.0.0
+Version: 2015.05.02
 Updated: 2nd May 2015
 Author: sMarty
 Author URI: http://coderspress.com

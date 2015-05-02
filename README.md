@@ -1,5 +1,5 @@
 # HTML5-GEO-Location
-~Current Version:10.0.0~
+~Current Version:2015.05.02~
 
 Premiumpress - HTML5-GEO-Location
 
