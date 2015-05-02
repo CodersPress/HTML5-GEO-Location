@@ -76,8 +76,8 @@ echo '<div id="message" class="updated fade"><p><strong>Plugin setting saved.</s
 <td>Mobile Only</td>
 <td> 
         <select name="mobile_only_option" />
-        <option value="yes" <?php if ( get_option('mobile_only_option') == yes ) echo 'selected="selected"'; ?>>Yes</option>
-        <option value="no" <?php if ( get_option('mobile_only_option') == no ) echo 'selected="selected"'; ?>>No</option>
+        <option value="yes" <?php if ( get_option('mobile_only_option') == 'yes' ) echo 'selected="selected"'; ?>>Yes</option>
+        <option value="no" <?php if ( get_option('mobile_only_option') == 'no' ) echo 'selected="selected"'; ?>>No</option>
          </select>
 </td>
 <td></td>
