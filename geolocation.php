@@ -20,7 +20,7 @@ function HTML5_plugin_updater() {
 			'api_url' => 'https://api.github.com/repos/CodersPress/HTML5-GEO-Location',
 			'raw_url' => 'https://raw.github.com/CodersPress/HTML5-GEO-Location/master',
 			'github_url' => 'https://github.com/CodersPress/HTML5-GEO-Location',
-			'zip_url' => 'https://github.com/CodersPress/HTML5-GEO-Location/archive/master.zip',
+			'zip_url' => 'https://github.com/CodersPress/HTML5-GEO-Location/zipball/master',
 			'sslverify' => true,
 			'requires' => '3.0',
 			'tested' => '4.2.1',
