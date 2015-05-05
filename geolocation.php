@@ -11,9 +11,9 @@ License: http://creativecommons.org/licenses/GPL/2.0
 */
 add_action( 'init', 'HTML5_plugin_updater' );
 function HTML5_plugin_updater() {
+	if ( is_admin() ) { 
 	include_once( dirname( __FILE__ ) . '/updater.php' );
 	define( 'WP_HTML5_FORCE_UPDATE', true );
-	if ( is_admin() ) { 
 		$config = array(
 			'slug' => plugin_basename( __FILE__ ),
 			'proper_folder_name' => 'HTML5-GEO-Location',
