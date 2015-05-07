@@ -1,6 +1,6 @@
 <?php
 // Prevent loading this file directly and/or if the class is already defined
-if ( ! defined( 'ABSPATH' ) || class_exists( 'WP_HTML5_Updater' ) )
+if ( ! defined( 'ABSPATH' ) )
 	return;
 
 /**
