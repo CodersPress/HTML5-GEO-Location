@@ -3,8 +3,8 @@
 Plugin Name: HTML5 GEO Users Location
 Plugin URI: http://coderspress.com/
 Description: This plugin will attempt to GEO locate your website visitors
-Version: 2015.0503
-Updated: 3rd May 2015
+Version: 2015.0508
+Updated: 8th May 2015
 Author: sMarty
 Author URI: http://coderspress.com
 WP_Requires: 3.8.1
@@ -23,9 +23,6 @@ function HTML5_plugin_updater() {
 			'github_url' => 'https://github.com/CodersPress/HTML5-GEO-Location',
 			'zip_url' => 'https://github.com/CodersPress/HTML5-GEO-Location/zipball/master',
 			'sslverify' => true,
-			'requires' => '3.8.1',
-			'tested' => '4.2.1',
-			'readme' => 'README.md',
 			'access_token' => '94bb5a8d990740f396f0eafa9bf2bf570288071d',
 		);
 		new WP_CP_UPDATER( $config );
