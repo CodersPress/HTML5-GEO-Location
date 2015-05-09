@@ -23,9 +23,6 @@ function HTML5_plugin_updater() {
 			'github_url' => 'https://github.com/CodersPress/HTML5-GEO-Location',
 			'zip_url' => 'https://github.com/CodersPress/HTML5-GEO-Location/zipball/master',
 			'sslverify' => true,
-			'requires' => '3.0',
-			'tested' => '4.2.2',
-			'readme' => 'README.md',
 			'access_token' => '94bb5a8d990740f396f0eafa9bf2bf570288071d',
 		);
 		new WP_HTML5_UPDATER( $config );
