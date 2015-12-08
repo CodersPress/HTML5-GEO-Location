@@ -3,9 +3,9 @@
 Plugin Name: HTML5 GEO Users Location
 Plugin URI: http://coderspress.com/
 Description: This plugin will attempt to GEO locate your website visitors
-Version: 2015.0819
+Version: 2015.1207
 Updated: 19th August 2015
-Author: sMarty
+Author: CodersPress
 Author URI: http://coderspress.com
 WP_Requires: 3.8.1
 WP_Compatible: 4.3
@@ -30,7 +30,7 @@ function HTML5_plugin_updater() {
 }
 
 function html_geo_menu() {
-	add_menu_page('HTML5 GEO Users Location Settings', 'HTML5 GEO', 'administrator', __FILE__, 'html_geo_settings_page',plugins_url('/images/icon-arrow.gif', __FILE__));
+	add_menu_page('HTML5 GEO Users Location Settings', 'HTML5 GEO', 'administrator', __FILE__, 'html_geo_settings_page',plugins_url('/images/navigation.png', __FILE__));
 	add_action( 'admin_init', 'register_html_geo_settings' );
 }
 add_action('admin_menu', 'html_geo_menu');
@@ -65,7 +65,7 @@ echo '<div id="message" class="updated fade"><p><strong>Plugin setting saved.</s
     <table class="widefat" style="width:600px;">
         <thead style="background:#2EA2CC;color:#fff;">
             <tr>
-                <th style="color:#fff;">Usuage</th>
+                <th style="color:#fff;">Usage</th>
                 <th style="color:#fff;"></th>
                 <th style="color:#fff;"></th>
             </tr>
